@@ -70,7 +70,7 @@
 		document.getElementById('formulario').addEventListener('submit', (e) => {
 			e.preventDefault();
 			contadorErrores++;
-			if (contadorErrores < 2) {
+			if (contadorErrores < 1) {
 				const mensajeError = document.getElementById('mensaje-error');
 				mensajeError.style.display = 'flex';
 			} else {
